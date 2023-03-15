@@ -27,7 +27,8 @@
            // product.RetriveAllRecordsGroupby();
            // product.RetriveAllRecordsFileds();
           //  product.SkipTopRecords();
-            product.RetrieveRecordsIsLike();
+            //product.RetrieveRecordsIsLike();
+            product.AverageRating();
         }
     }
 }
