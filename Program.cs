@@ -24,11 +24,12 @@
             product.AddProductList(productReviewList);
             //product.RetriveTopRecords();
             //product.RetriveAllRecords();
-           // product.RetriveAllRecordsGroupby();
-           // product.RetriveAllRecordsFileds();
-          //  product.SkipTopRecords();
+            // product.RetriveAllRecordsGroupby();
+            // product.RetriveAllRecordsFileds();
+            //  product.SkipTopRecords();
             //product.RetrieveRecordsIsLike();
-            product.AverageRating();
+            // product.AverageRating();
+            product.RetiveUsingMessage(productReviewList);
         }
     }
 }
