@@ -19,6 +19,11 @@ namespace ProductReveiwManagement
             var result = this.productReviewList.Where(x => x.Rating == 5).Take(3);
             Display(result.ToList());
         }
+        public void RetriveAllRecords()
+        {
+            var result = this.productReviewList.Where(x => x.Rating == 3 && (x.ProductID == 1 || x.ProductID == 4 || x.ProductID == 9));
+            Display(result.ToList());
+        }
         public void Display(List<ProductReview> productReviews)
         {
             foreach (var productReview in productReviews)
