@@ -22,6 +22,7 @@
             };
             ProductManagement product = new ProductManagement();
             product.AddProductList(productReviewList);
+            product.RetriveTopRecords();
         }
     }
 }
